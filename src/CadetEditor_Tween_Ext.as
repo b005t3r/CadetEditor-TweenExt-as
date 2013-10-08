@@ -18,7 +18,7 @@ public class CadetEditor_Tween_Ext extends Sprite {
         var resourceManager:ResourceManager = CoreApp.resourceManager;
 
         // Processes
-        resourceManager.addResource(new ComponentFactory(JugglerProcess, "Juggler Process", "Processes", CadetEngineIcons.Process, CadetScene, 1));
+        resourceManager.addResource(new ComponentFactory(JugglerProcess, "Juggler Process", "Processes", CadetEngineIcons.Process, CadetScene));
 
         // Tweens
         resourceManager.addResource(new ComponentFactory(TweenComponent, "Tween", "Tweens", CadetEngineIcons.Behaviour));
